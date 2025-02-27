@@ -1,7 +1,29 @@
-- Heyo Stossy11 Here
-- im a [REDACTED] year old developer
-- im into iOS Stuff
-- Check out my Website https://stossy11.com
+About me:
+
+```
+struct Stossy11 {
+    var username: String = "Stossy11"
+    let name: String = "Rosie"
+    let gender: String = "Female 🏳️‍⚧️"
+    let favouriteGames: [String] = [
+        "FNAF", "Minecraft: Java Edition", "Geometrey Dash",
+        "BeamNG.Drive"
+    ]
+    let pronouns: String = "she/her"
+    var age: Int {
+        print("REDACTED")
+        return 0
+    }
+    var alive = true
+    
+    var favoritecodelang = "Swift"
+    
+    let langsknowledge: [String] = [
+        "Swift", "C#", "Objective-C",
+        "C++", "Python"
+    ]
+}
+```
 
 <!---
 stossy11/stossy11 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
