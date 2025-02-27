@@ -6,7 +6,7 @@ struct Stossy11 {
     let name: String = "Rosie"
     let gender: String = "Female 🏳️‍⚧️"
     let favouriteGames: [String] = [
-        "FNAF", "Minecraft: Java Edition", "Geometrey Dash",
+        "FNAF", "Minecraft: Java Edition", "Geometry Dash",
         "BeamNG.Drive"
     ]
     let pronouns: String = "she/her"
