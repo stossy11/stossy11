@@ -10,9 +10,9 @@ struct Stossy11 {
         "BeamNG.Drive"
     ]
     let pronouns: String = "she/her"
-    var age: Int {
+    var age: Int? {
         print("REDACTED")
-        return 0
+        return nil
     }
     var alive = true
     
