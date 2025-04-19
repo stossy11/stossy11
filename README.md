@@ -11,17 +11,21 @@ struct Stossy11 {
     ]
     let pronouns: String = "she/her"
     var age: Int? {
-        print("REDACTED")
+        print("[REDACTED]")
         return nil
     }
     var alive = true
-    
-    var favoritecodelang = "Swift"
     
     let langsknowledge: [String] = [
         "Swift", "C#", "Objective-C",
         "C++", "Python"
     ]
+
+    var favoritecodelang: String
+
+    init() {
+        favoritecodelang = langsknowledge.first!
+    }
 }
 ```
 
