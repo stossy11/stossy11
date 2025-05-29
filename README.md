@@ -17,7 +17,7 @@ struct Stossy11 {
     var alive = true
     
     let langsknowledge: [String] = [
-        "Swift", "C#", "Objective-C",
+        "Swift", "C#", "Objective-C / Objective-C++",
         "C++", "Python"
     ]
 
