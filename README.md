@@ -1,31 +1,31 @@
 About me:
 
-```
-struct Stossy11 {
+```swift
+class Stossy11 {
     var username: String = "Stossy11"
     let name: String = "Rosie"
     let gender: String = "Female 🏳️‍⚧️"
-    let favouriteGames: [String] = [
+    let pronouns: String = "she/her"
+    var alive = true
+    var age: Int? = nil
+    
+    var favouriteGames: [String] = [
         "FNAF", "Minecraft: Java Edition", "Geometry Dash",
         "BeamNG.Drive"
     ]
-    let pronouns: String = "she/her"
-    var age: Int? {
-        print("[REDACTED]")
-        return nil
-    }
-    var alive = true
+    var currentProjects: [String: URL?] = [
+        "MeloNX": URL(string: "https://melonx.org/"),
+        "SideStore": URL(string: "https://sidestore.io"),
+        "Stossycord": URL(string: "https://github.com/Stossycord/Stossycord")
+    ]
+
     
-    let langsknowledge: [String] = [
+    static var langsknowledge: [String] = [
         "Swift", "C#", "Objective-C / Objective-C++",
         "C++", "Python"
     ]
 
-    var favoritecodelang: String
-
-    init() {
-        favoritecodelang = langsknowledge.first!
-    }
+    var favoritecodelang: String = langsknowledge.first!
 }
 ```
 
