@@ -4,7 +4,7 @@ About me:
 class Stossy11 {
     var username: String = "Stossy11"
     let name: String = "Rosie"
-    let gender: String = "Female 🏳️‍⚧️"
+    let gender: String = "Female"
     let pronouns: String = "she/her"
     var alive = true
     var age: Int? = nil
